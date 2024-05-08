@@ -1,0 +1,211 @@
+body {
+  background-color: #0f0e18;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  background-color: #201b25;
+}
+
+.nav li {
+  list-style-type: none;
+  padding: 10px 20px;
+}
+
+.nav button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.nav button:hover {
+  color: #acacf1;
+  cursor: pointer;
+}
+
+#logo {
+  text-align: center;
+  font-size: 24px;
+}
+
+.hero-section {
+  background-image: url(./Asset/Jujutsu.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 20px auto;
+  height: 478px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+}
+
+input[type="search"] {
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  height: 36px;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.container button {
+  height: 42px;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.container button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.container p {
+  background-color: rgba(128, 125, 125, 0.589);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.container p a {
+  color: white;
+}
+
+.container p a:hover {
+  text-decoration: underline;
+}
+
+/* Share section styles */
+.share {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+}
+
+.share p {
+  text-align: center;
+}
+
+.share-text {
+  color: #ff4500;
+}
+
+.share span {
+  padding: 10px;
+}
+
+.share button {
+  height: 40px;
+  width: 90%;
+  margin: 10px auto;
+}
+
+#Twitter {
+  background: rgb(0, 0, 0);
+  color: #ffffff;
+  border: none;
+  border-radius: 9px;
+}
+
+#Reddit {
+  background: #ff4500;
+  color: #ffffff;
+  border: none;
+  border-radius: 9px;
+}
+
+#Facebook {
+  background: #3b5998;
+  color: #ffffff;
+  border: none;
+  border-radius: 9px;
+}
+
+#Share {
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 9px;
+}
+
+.share button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+#Twitter:hover {
+  background: #000000;
+}
+
+#Reddit:hover {
+  background: #ff4500;
+}
+
+#Facebook:hover {
+  background: #3b5998;
+}
+
+#Share:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  color: rgba(212, 212, 212, 0.747);
+}
+
+/* smaller screen */
+@media screen and (max-width: 767px) {
+  .nav {
+    display: block;
+    margin: 20px auto;
+    height: auto;
+  }
+
+  .nav li {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .hero-section {
+    width: 90%;
+  }
+
+  input[type="search"] {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .container button {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .container p {
+    margin: 20px auto;
+  }
+
+  .share {
+    margin: 40px auto;
+  }
+
+  .share button {
+    width: 90%;
+    margin: 10px auto;
+  }
+}
